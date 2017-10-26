@@ -36,5 +36,5 @@ Duplicate 'System.Reflection.AssemblyCompanyAttribute' attribute
 **Issues and Fixes**
 1. Erroring on build w/ report on Xamarin.Forms.targets being null -> Remove all files in Properties (Assembly.cs, etc)
 2. When you try and build and you get Cannot find your net .Net Core dll -> Restart VS and rebuild (Files might be in use)
-
+3. You may have to delete the Obj and Bin directories of your new .NetCore a few times to get it to build...
 ***@ryanherman***
