@@ -29,10 +29,12 @@ with:
 13. You may need to restart Visual Studio after this and try another clean and Rebuild.  I had some weird error that went away.
 Duplicate 'System.Reflection.AssemblyCompanyAttribute' attribute
 14. Delete Assembly.cs in your Properties Fly-out in Solution Explorer
-15. Rebuild and you will see some ambiguous references, correct them all - Like if you as an "as Switch"
+15. Rebuild and you will see some ambiguous references, correct them all.
 16. Manage Nuget Packages for Solution -> Head over to Consolidate to make sure all package version is matched up
 17. Add refrence from your iOS/Droid to your new .NetCore Library!
-Issue w/ Xamarin.Forms.targets - Remove all files in Properties
-If when you try and build and you get Cannot find your net .Net Core dll, Restart VS
+
+**Issues and Fixes**
+1. Erroring on build w/ report on Xamarin.Forms.targets being null -> Remove all files in Properties (Assembly.cs, etc)
+2. When you try and build and you get Cannot find your net .Net Core dll -> Restart VS and rebuild (Files might be in use)
 
 ***@ryanherman***
