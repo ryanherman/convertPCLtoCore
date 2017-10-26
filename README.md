@@ -1,4 +1,4 @@
-**15 Steps to Converting your PCL to .NetCore**
+**17 Steps to Converting your PCL to .NetCore**
 -----------------------------------------------
 
 1. Git New Branch
