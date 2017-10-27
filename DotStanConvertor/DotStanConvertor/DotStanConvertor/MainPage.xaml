@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DotStanConvertor"
+             x:Class="DotStanConvertor.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout BackgroundColor="#969696" Padding="1" Grid.Row="1" HeightRequest="100">
+                <Editor HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                        BackgroundColor="White" x:Name="PasteHere" FontSize="10" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
