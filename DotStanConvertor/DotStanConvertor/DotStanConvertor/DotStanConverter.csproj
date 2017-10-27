@@ -8,8 +8,8 @@
     <ProjectGuid>{896F7FC5-4630-4AF5-A741-D48F7F569E96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DotStanConvertor</RootNamespace>
-    <AssemblyName>DotStanConvertor</AssemblyName>
+    <RootNamespace>DotStanConverter</RootNamespace>
+    <AssemblyName>DotStanConverter</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>

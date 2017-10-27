@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DotStanConvertor"
-             x:Class="DotStanConvertor.MainPage">
+             x:Class="DotStanConverter.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout BackgroundColor="#969696" Padding="1" Grid.Row="1" HeightRequest="100">
+            <StackLayout BackgroundColor="#969696" Padding="1" HeightRequest="400">
                 <Editor HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
-                        BackgroundColor="White" x:Name="PasteHere" FontSize="10" />
+                        BackgroundColor="White" x:Name="PasteHere" FontSize="10"/>
+                <Button Text="Convert" x:Name="ConvertButton" FontSize="18" TextColor="Black" BackgroundColor="Silver" Clicked="ConvertButton_OnClicked"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

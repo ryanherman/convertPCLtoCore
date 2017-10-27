@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="DotStanConvertor.UWP.App"
+    x:Class="DotStanConverter.UWP.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:DotStanConvertor.UWP"
+    xmlns:local="using:DotStanConverter.UWP"
     RequestedTheme="Light">
 
 </Application>

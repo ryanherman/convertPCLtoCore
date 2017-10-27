@@ -7,8 +7,8 @@
     <ProjectGuid>{691485A7-AF53-4864-8FB3-AA465CD72BDE}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DotStanConvertor.UWP</RootNamespace>
-    <AssemblyName>DotStanConvertor.UWP</AssemblyName>
+    <RootNamespace>DotStanConverter.UWP</RootNamespace>
+    <AssemblyName>DotStanConverter.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
@@ -152,9 +152,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DotStanConvertor\DotStanConvertor.csproj">
-      <Project>{201dc334-fed9-4f73-8fbd-be3c073ebfbd}</Project>
-      <Name>DotStanConvertor</Name>
+    <ProjectReference Include="..\DotStanConvertor\DotStanConverter.csproj">
+      <Project>{896F7FC5-4630-4AF5-A741-D48F7F569E96}</Project>
+      <Name>DotStanConverter</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
