@@ -38,5 +38,6 @@ Duplicate 'System.Reflection.AssemblyCompanyAttribute' attribute
 2. When you try and build and you get Cannot find your net .Net Core dll -> Restart VS and rebuild (Files might be in use)
 3. You may have to delete the Obj and Bin directories of your new .NetCore a few times to get it to build...
 4. Fody and Realm.io Users, if you add or delete fody nuget packages like PropertyChanged.Fody, be prepared to delete Obj and Bin files for it to compile...
+5. Was having many problems w/ Microsoft.BCL.*; ended up removing them and it worked out fine.
 
 ***@ryanherman***
